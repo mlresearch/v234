@@ -1,0 +1,90 @@
+---
+booktitle: Conference on Parsimony and Learning
+shortname: CPAL
+volume: '234'
+year: '2024'
+start: 2024-01-03
+end: 2024-01-06
+published: 2024-01-08
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: CPAL2024
+month: 0
+cycles: false
+bibtex_editor: Chi, Yuejie and Dziugaite, Gintare Karolina and Qu, Qing and Wang,
+  Atlas Wang and Zhu, Zhihui
+editor:
+- given: Yuejie
+  family: Chi
+- given: Gintare Karolina
+  family: Dziugaite
+- given: Qing
+  family: Qu
+- given: Atlas Wang
+  family: Wang
+- given: Zhihui
+  family: Zhu
+title: Proceedings of Machine Learning Research
+description: |
+  Conference on Parsimony and Learning
+    Held in Hongkong, China on 03-06 January 2024
+
+  Published as Volume 234 by the Proceedings of Machine Learning Research on 08 January 2024.
+
+  Volume Edited by:
+    Yuejie Chi
+    Gintare Karolina Dziugaite
+    Qing Qu
+    Atlas Wang Wang
+    Zhihui Zhu
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 03--06 Jan
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v234"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v234
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v234
+email: ''
+conference:
+  name: Conference on Parsimony and Learning
+  url: https://cpal.cc
+  location: Hongkong, China
+  dates:
+  - 2024-01-03
+  - 2024-01-04
+  - 2024-01-05
+  - 2024-01-06
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v234/CPAL24.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v234/CPAL24.bib

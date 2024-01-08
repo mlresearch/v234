@@ -1,0 +1,280 @@
+@Proceedings{CPAL2024,
+	booktitle = {Conference on Parsimony and Learning},
+	name = {Conference on Parsimony and Learning},
+	shortname = {CPAL},
+	editor = {Chi, Yuejie and Dziugaite, Gintare Karolina  and Qu, Qing and Wang, Atlas Wang and Zhu, Zhihui},
+	volume = {234},
+	year = {2024},
+	start = {2024-01-03},
+	end = {2024-01-06},
+	published = {2024-01-08},
+	conference_url = {https://cpal.cc},
+	address = {Hongkong, China}
+}
+
+@InProceedings{pan24,
+	title = {PC-X: Profound Clustering via Slow Exemplars},
+	author = {Pan, Yuangang and Yao, Yinghua and Tsang, Ivor},
+	pages = {1-19},
+	openreview = {yhGKPtRoOx},
+	abstract = {Deep clustering aims at learning clustering and data representation jointly to deliver clustering-friendly representation. In spite of their significant improvements in clustering accuracy, existing approaches are far from meeting the requirements from other perspectives, such as universality, interpretability and efficiency, which become increasingly important with the emerging demand for diverse applications. We introduce a new framework named Profound Clustering via slow eXemplars (PC-X), which fulfils the above four basic requirements simultaneously. 
+In particular, PC-X encodes data within the auto-encoder (AE) network to reduce its dependence on data modality (\textit{universality}). 
+Further, inspired by exemplar-based clustering, we design a \PCX{Centroid-Integration Unit (CI-Unit)}, which not only facilitate the suppression of sample-specific details for better representation learning  (\textit{accuracy}), but also prompt clustering centroids to become legible exemplars (\textit{interpretability}). Further, these exemplars are calibrated stably with mini-batch data following our tailor-designed optimization scheme and converges in linear (\textit{efficiency}). Empirical results on benchmark datasets demonstrate the superiority of PC-X in terms of universality, interpretability and efficiency, in addition to clustering accuracy. The code of this work is available at https://github.com/Yuangang-Pan/PC-X/.}
+}
+
+@InProceedings{gong24,
+	title = {WS-iFSD: Weakly Supervised Incremental Few-shot Object Detection Without Forgetting},
+	author = {Gong, Xinyu and Yin, Li and Perez-Rua, Juan-Manuel and Wang, Zhangyang and Yan, Zhicheng},
+	pages = {20-38},
+	openreview = {y2ozeixGaU},
+	abstract = {Traditional object detection algorithms rely on extensive annotations from a pre-defined set of base categories, leaving them ill-equipped to identify objects from novel classes. We address this limitation by introducing a novel framework for Incremental Few-Shot Object Detection (iFSD). Leveraging a meta-learning approach, our \hypernetwork is designed to generate class-specific codes, enabling object recognition from both base and novel categories. To enhance the \hypernetwork's generalization performance, we propose a Weakly Supervised Class Augmentation technique that significantly amplifies the training data by merely requiring image-level labels for object localization. Additionally, we stabilize detection performance on base categories by freezing the backbone and detection heads during meta-training. Our model demonstrates significant performance gains on two major benchmarks. Specifically, it outperforms the state-of-the-art ONCE approach on the MS COCO dataset by margins of $2.8\%$ and $20.5\%$ in box AP for novel and base categories, respectively. When trained on MS COCO and cross-evaluated on PASCAL VOC, our model achieves a four-fold improvement in box AP compared to ONCE.}
+}
+
+@InProceedings{weng24,
+	title = {Sparse Fréchet sufficient dimension reduction via nonconvex optimization},
+	author = {Weng, Jiaying and Ke, Chenlu and Wang, Pei},
+	pages = {39-53},
+	openreview = {uE1C3im4wF},
+	abstract = {In the evolving landscape of statistical learning, exploiting low-dimensional structures, particularly for non-Euclidean objects, is an essential and ubiquitous task with wide applications ranging from image analysis to biomedical research. Among the momentous developments in the non-Euclidean domain, Fréchet regression extends beyond Riemannian manifolds to study complex random response objects in a metric space with Euclidean features. Our work focuses on sparse Fréchet dimension reduction where the number of features far exceeds the sample size. The goal is to achieve parsimonious models by identifying a low-dimensional and sparse representation of features through sufficient dimension reduction. To this end, we construct a multitask regression model with synthetic responses and achieve sparse estimation by leveraging the minimax concave penalty. Our approach not only sidesteps inverting a large covariance matrix but also mitigates estimation bias in feature selection. To tackle the nonconvex optimization challenge, we develop a double approximation shrinkage-thresholding algorithm that combines a linear approximation to the penalty term and a quadratic approximation to the loss function. The proposed algorithm is efficient as each iteration has a clear and explicit solution. Experimental results for both simulated and real-world data demonstrate the superior performance of the proposed method compared to existing alternatives.}
+}
+
+@InProceedings{li24a,
+	title = {Efficiently Disentangle Causal Representations},
+	author = {Li, Yuanpeng and Hestness, Joel and Elhoseiny, Mohamed and Zhao, Liang and Church, Kenneth},
+	pages = {54-71},
+	openreview = {p8WpFhcKsK},
+	abstract = {This paper proposes an efficient approach to learning disentangled representations with causal mechanisms based on the difference of conditional probabilities in original and new distributions.
+We approximate the difference with models' generalization abilities so that it fits in the standard machine learning framework and can be computed efficiently.
+In contrast to the state-of-the-art approach, which relies on the learner's adaptation speed to new distribution, the proposed approach only requires evaluating the model's generalization ability.
+We provide a theoretical explanation for the advantage of the proposed method, and our experiments show that the proposed technique is 1.9--11.0$\times$ more sample efficient and 9.4--32.4$\times$ quicker than the previous method on various tasks.}
+}
+
+@InProceedings{yu24,
+	title = {Emergence of Segmentation with Minimalistic White-Box Transformers},
+	author = {Yu, Yaodong and Chu, Tianzhe and Tong, Shengbang and Wu, Ziyang and Pai, Druv and Buchanan, Sam and Ma, Yi},
+	pages = {72-93},
+	openreview = {kmzH8kT9TE},
+	abstract = {Transformer-like models for vision tasks have recently proven effective for a wide range of downstream applications such as segmentation and detection. 
+Previous works have shown that segmentation properties emerge in vision transformers (ViTs) trained using self-supervised methods such as DINO, but not in those trained on supervised classification tasks. 
+In this study, we probe whether segmentation emerges in transformer-based models solely as a result of intricate self-supervised learning mechanisms, or if the same emergence can be achieved under much broader conditions through proper design of the model architecture. 
+Through extensive experimental results, we demonstrate that when employing a white-box transformer-like architecture known as CRATE, whose design explicitly models and pursues low-dimensional structures in the data distribution, segmentation properties, at both the whole and parts levels, already emerge with a minimalistic supervised training recipe. 
+Layer-wise finer-grained analysis reveals that the emergent properties strongly corroborate the designed mathematical functions of the white-box network. Our results suggest a path to design white-box foundation models that are simultaneously highly performant and mathematically fully interpretable.}
+}
+
+@InProceedings{yildirim24,
+	title = {Continual Learning with Dynamic Sparse Training: Exploring Algorithms for Effective Model Updates},
+	author = {Yildirim, Murat Onur and Gok, Elif Ceren and Sokar, Ghada and Mocanu, Decebal Constantin and Vanschoren, Joaquin},
+	pages = {94-107},
+	openreview = {kkz4BbquBy},
+	abstract = {Continual learning (CL) refers to the ability of an intelligent system to sequentially acquire and retain knowledge from a stream of data with as little computational overhead as possible. To this end; regularization, replay, architecture, and parameter isolation approaches were introduced to the literature. Parameter isolation using a sparse network which enables to allocate distinct parts of the neural network to different tasks and also allows to share of parameters between tasks if they are similar. Dynamic Sparse Training (DST) is a prominent way to find these sparse networks and isolate them for each task. This paper is the first empirical study investigating the effect of different DST components under the CL paradigm to fill a critical research gap and shed light on the optimal configuration of DST for CL if it exists. Therefore, we perform a comprehensive study in which we investigate various DST components to find the best topology per task on well-known CIFAR100 and miniImageNet benchmarks in a task-incremental CL setup since our primary focus is to evaluate the performance of various DST criteria, rather than the process of mask selection. We found that, at a low sparsity level, Erdos-Renyi Kernel (ERK) initialization utilizes the backbone more efficiently and allows to effectively learn increments of tasks. At a high sparsity level, however, uniform initialization demonstrates more reliable and robust performance. In terms of growth strategy; performance is dependent on the defined initialization strategy and the extent of sparsity. Finally, adaptivity within DST components is a promising way for better continual learners.}
+}
+
+@InProceedings{wu24,
+	title = {Decoding Micromotion in Low-dimensional Latent Spaces from StyleGAN},
+	author = {Wu, Qiucheng and Jiang, Yifan and Wu, Junru and Wang, Kai and Zhang, Eric and Shi, Humphrey and Wang, Zhangyang and Chang, Shiyu},
+	pages = {108-133},
+	openreview = {jRVS6C3Wia},
+	abstract = {The disentanglement of StyleGAN latent space has paved the way for realistic and controllable image editing, but does StyleGAN know anything about temporal motion, as it was only trained on static images? To study the motion features in the latent space of StyleGAN, in this paper, we hypothesize and demonstrate that a series of meaningful, natural, and versatile small, local movements (referred to as "micromotion", such as expression, head movement, and aging effect) can be represented in low-rank spaces extracted from the latent space of a conventionally pre-trained StyleGAN-v2 model for face generation, with the guidance of proper "anchors" in the form of either short text or video clips. Starting from one target face image, with the editing direction decoded from the low-rank space, its micromotion features can be represented as simple as an affine transformation over its latent feature. Perhaps more surprisingly, such micromotion subspace, even learned from just single target face, can be painlessly transferred to other unseen face images, even those from vastly different domains (such as oil painting, cartoon, and sculpture faces). It demonstrates that the local feature geometry corresponding to one type of micromotion is aligned across different face subjects, and hence that StyleGAN-v2 is indeed ``secretly'' aware of the subject-disentangled feature variations caused by that micromotion. As an application, we present various successful examples of applying our low-dimensional micromotion subspace technique to directly and effortlessly manipulate faces. Compared with previous editing methods, our framework shows high robustness, low computational overhead, and impressive domain transferability. Our code is publicly available at https://github.com/wuqiuche/micromotion-StyleGAN.}
+}
+
+@InProceedings{ding24,
+	title = {HARD: Hyperplane ARrangement Descent},
+	author = {Ding, Tianjiao and Peng, Liangzu and Vidal, Rene},
+	pages = {134-158},
+	openreview = {jMUDBpnZPa},
+	abstract = {The problem of clustering points on a union of subspaces finds numerous applications in machine learning and computer vision, and it has been extensively studied in the past two decades. When the subspaces are low-dimensional, the problem can be formulated as a convex sparse optimization problem, for which numerous accurate, efficient and robust methods exist. When the subspaces are of high relative dimension (e.g., hyperplanes), the problem is intrinsically non-convex, and existing methods either lack theory, are computationally costly, lack robustness to outliers, or learn hyperplanes one at a time. In this paper, we propose Hyperplane ARangentment Descent (HARD), a method that robustly learns all the hyperplanes simultaneously by solving a novel non-convex non-smooth $\ell_1$ minimization problem. We provide geometric conditions under which the ground-truth hyperplane arrangement is a coordinate-wise minimizer of our objective. Furthermore, we devise efficient algorithms, and give conditions under which they converge to coordinate-wise minimizes. We provide empirical evidence that HARD surpasses state-of-the-art methods and further show an interesting experiment in clustering deep features on CIFAR-10.}
+}
+
+@InProceedings{lu24,
+	title = {FIXED: Frustratingly Easy Domain Generalization with Mixup},
+	author = {Lu, Wang and Wang, Jindong and Yu, Han and Huang, Lei and Zhang, Xiang and Chen, Yiqiang and Xie, Xing},
+	pages = {159-178},
+	openreview = {iW26qcPlui},
+	abstract = {Domain generalization (DG) aims to learn a generalizable model from multiple training domains such that it can perform well on unseen target domains. A popular strategy is to augment training data to benefit generalization through methods such as Mixup [1]. While the vanilla Mixup can be directly applied, theoretical and empirical investigations uncover several shortcomings that limit its performance. Firstly, Mixup cannot effectively identify the domain and class information that can be used for learning invariant representations. Secondly, Mixup may introduce synthetic noisy data points via random interpolation, which lowers its discrimination capability. Based on the analysis, we propose a simple yet effective enhancement for Mixup-based DG, namely domain-invariant Feature mIXup (FIX). It learns domain-invariant representations for Mixup. To further enhance discrimination, we leverage existing techniques to enlarge margins among classes to further propose the domain-invariant Feature MIXup with Enhanced Discrimination (FIXED) approach. We present theoretical insights about guarantees on its effectiveness. Extensive experiments on seven public datasets across two modalities including image classification (Digits-DG, PACS, Office-Home) and time series (DSADS, PAMAP2, UCI-HAR, and USC-HAD) demonstrate that our approach significantly outperforms nine state-of-the-art related methods, beating the best performing baseline by 6.5% on average in terms of test accuracy. The code is available at https:// github.com/jindongwang/transferlearning/tree/master/code/deep/fixed.}
+}
+
+@InProceedings{shi24,
+	title = {Domain Generalization via Nuclear Norm Regularization},
+	author = {Shi, Zhenmei and Ming, Yifei and Fan, Ying and Sala, Frederic and Liang, Yingyu},
+	pages = {179-201},
+	openreview = {hJd66ZzXEZ},
+	abstract = {The ability to generalize to unseen domains is crucial for machine learning systems deployed in the real world, especially when we only have data from limited training domains. In this paper, we propose a simple and effective regularization method based on the nuclear norm of the learned features for domain generalization. Intuitively, the proposed regularizer mitigates the impacts of environmental features and encourages learning domain-invariant features. Theoretically, we provide insights into why nuclear norm regularization is more effective compared to ERM and alternative regularization methods. Empirically, we conduct extensive experiments on both synthetic and real datasets. We show nuclear norm regularization achieves strong performance compared to baselines in a wide range of domain generalization tasks. Moreover, our regularizer is broadly applicable with various methods such as ERM and SWAD with consistently improved performance, e.g., 1.7% and 0.9%  test accuracy improvements respectively on the DomainBed benchmark.}
+}
+
+@InProceedings{zhai24,
+	title = {Investigating the Catastrophic Forgetting in Multimodal Large Language Model Fine-Tuning},
+	author = {Zhai, Yuexiang and Tong, Shengbang and Li, Xiao and Cai, Mu and Qu, Qing and Lee, Yong Jae and Ma, Yi},
+	pages = {202-227},
+	openreview = {g7rMSiNtmA},
+	abstract = {Following the success of GPT4, there has been a surge in interest in multimodal large language model (MLLM) research. This line of research focuses on developing general-purpose LLMs through fine-tuning pre-trained LLMs and vision models. However, catastrophic forgetting, a notorious phenomenon where the fine-tuned model fails to retain similar performance compared to the pre-trained model, still remains an inherited problem in multimodal LLMs (MLLM). In this paper, we introduce EMT: Evaluating MulTimodality for evaluating the catastrophic forgetting in MLLMs, by treating each MLLM as an image classifier. We first apply EMT to evaluate several open-source fine-tuned MLLMs and we discover that almost all evaluated MLLMs fail to retain the same performance levels as their vision encoders on standard image classification tasks. Moreover, we continue fine-tuning LLaVA, an MLLM and utilize EMT to assess performance throughout the fine-tuning. Interestingly, our results suggest that early-stage fine-tuning on an image dataset improves performance across other image datasets, by enhancing the alignment of text and language features. However, as fine-tuning proceeds, the MLLMs begin to hallucinate, resulting in a significant loss of generalizability, even when the image encoder remains frozen. Our results suggest that MLLMs have yet to demonstrate performance on par with their vision models on standard image classification tasks and the current MLLM fine-tuning procedure still has room for improvement.}
+}
+
+@InProceedings{zhao24a,
+	title = {Deep Self-expressive Learning},
+	author = {Zhao, Chen and Li, Chun-Guang and He, Wei and You, Chong},
+	pages = {228-247},
+	openreview = {g2amnrrMP0},
+	abstract = {Self-expressive model is a method for clustering data drawn from a union of low-dimensional linear subspaces. It gains a lot of popularity due to its: 1) simplicity, based on the observation that each data point can be expressed as a linear combination of the other data points, 2) provable correctness under broad geometric and statistical conditions, and 3) many extensions for handling corrupted, imbalanced, and large-scale real data. This paper extends the self-expressive model to a Deep sELf-expressiVE model (DELVE) for handling the more challenging case that the data lie in a union of nonlinear manifolds. DELVE is constructed from stacking self-expressive layers, each of which maps each data point to a linear combination of the other data points, and can be trained via minimizing self-expressive losses. 
+With such a design, the operator, architecture, and training of DELVE have the explicit interpretation of producing progressively linearized representations from the input data in nonlinear manifolds. Moreover, by leveraging existing understanding and techniques for self-expressive models, DELVE has a collection of benefits such as design choice by principles, robustness via specialized layers, and efficiency via specialized optimizers. We demonstrate on image datasets that DELVE can effectively perform data clustering, remove data corruptions, and handle large scale data.}
+}
+
+@InProceedings{chun24,
+	title = {Sparse Activations with Correlated Weights in Cortex-Inspired Neural Networks},
+	author = {Chun, Chanwoo and Lee, Daniel},
+	pages = {248-268},
+	openreview = {cyMsUO5J7U},
+	abstract = {Although sparse activations are commonly seen in cortical brain circuits, the computational benefits of sparse activations are not well understood for machine learning. Recent neural network Gaussian Process models have incorporated sparsity in infinitely-wide neural network architectures, but these models result in Gram matrices that approach the identity matrix with increasing sparsity.  This collapse of input pattern similarities in the network representation is due to the use of independent weight vectors in the models. In this work, we show how weak correlations in the weights can counter this effect.  Correlations in the synaptic weights are introduced using a convolutional model, similar to the neural structure of lateral connections in the cortex. We show how to theoretically compute the properties of infinitely-wide networks with sparse, correlated weights and with rectified linear outputs. In particular, we demonstrate how the generalization performance of these sparse networks improves by introducing these correlations.  We also show how to compute the optimal degree of correlations that result in the best-performing deep networks.}
+}
+
+@InProceedings{bhatnagar24,
+	title = {Piecewise-Linear Manifolds for Deep Metric Learning},
+	author = {Bhatnagar, Shubhang and Ahuja, Narendra},
+	pages = {269-281},
+	openreview = {Z0Fk5MyxkY},
+	abstract = {Unsupervised deep metric learning (UDML) focuses on learning a semantic representation space using only unlabeled data. This challenging problem requires accurately estimating the similarity between data points, which is used to supervise a deep network. For this purpose, we propose to model the high-dimensional data manifold using a piecewise-linear approximation, with each low-dimensional linear piece approximating the data manifold in a small neighborhood of a point. These neighborhoods are used to estimate similarity between data points. We empirically show that this similarity estimate correlates better with the ground truth than the similarity estimates of current state-of-the-art techniques. We also show that proxies, commonly used in supervised metric learning, can be used to model the piecewise-linear manifold in an unsupervised setting, helping improve performance. Our method outperforms existing unsupervised metric learning approaches on standard zero-shot image retrieval benchmarks.}
+}
+
+@InProceedings{ma24,
+	title = {HRBP: Hardware-friendly Regrouping towards Block-based Pruning for Sparse CNN Training},
+	author = {Ma, Haoyu and Zhang, Chengming and xiang, lizhi and Ma, Xiaolong and Yuan, Geng and Zhang, Wenkai and Liu, Shiwei and Chen, Tianlong and Tao, Dingwen and Wang, Yanzhi and Wang, Zhangyang and Xie, Xiaohui},
+	pages = {282-301},
+	openreview = {VP1Xrdz0Bp},
+	abstract = {Pruning at initialization and training a sparse network from scratch (sparse training) become increasingly popular. However, most sparse training literature addresses only the unstructured sparsity, which in practice brings little benefit to the training acceleration on GPU due to the irregularity of non-zero weights. In this paper, we work on sparse training with fine-grained structured sparsity, by extracting a few dense blocks from unstructured sparse weights. For Convolutional Neural networks (CNN), however, the extracted dense blocks will be broken in backpropagation due to the shape transformation of convolution filters implemented by GEMM. Thus, previous block-wise pruning methods can only be used to accelerate the forward pass of sparse CNN training. To this end, we propose Hardware-friendly Regrouping towards Block-based Pruning (HRBP), where the grouping is conducted on the kernel-wise mask. With HRBP, extracted dense blocks are preserved in backpropagation. Extensive experiments on CIFAR-10, CIFAR-100, and ImageNet demonstrate that HRBP can almost match the accuracy of unstructured sparse training methods while achieving a huge acceleration on hardware. 
+Code is available at: https://github.com/HowieMa/HRBP-pruning.}
+}
+
+@InProceedings{chen24,
+	title = {Cross-Quality Few-Shot Transfer for Alloy Yield Strength Prediction: A New Materials Science Benchmark and A Sparsity-Oriented Optimization Framework},
+	author = {Chen, Xuxi and Chen, Tianlong and Olivares, Everardo Yeriel and Elder, Kate and McCall, Scott and Perron, Aurelien and McKeown, Joseph and Kailkhura, Bhavya and Wang, Zhangyang and Gallagher, Brian},
+	pages = {302-323},
+	openreview = {V7mcfiSjIT},
+	abstract = {Discovering high-entropy alloys (HEAs) with high yield strength (YS) is crucial in materials science. However, the YS can only be accurately measured by expensive and time-consuming experiments, hence cannot be acquired at scale. Learning-based methods could facilitate the discovery, but the lack of a comprehensive dataset on HEA YS has created barriers. We present X-Yield, a materials science benchmark with 240 experimentally measured (high-quality) and over 100,000 simulated (low-quality) HEA YS data.  Due to the scarcity of experimental results and the quality gap with simulated data, existing transfer learning methods cannot generalize well on our dataset. We address this cross-quality few-shot transfer problem by leveraging model sparsification "twice" --- as a noise-robust feature regularizer at the pre-training stage, and as a data-efficient regularizer at the transfer stage. While the workflow already performs decently with sparsity patterns tuned independently for either stage, we propose a bi-level optimization framework termed Bi-RPT, that jointly learns optimal masks and allocates sparsity for both stages. The effectiveness of Bi-RPT is validated through experiments on X-Yield, alongside other testbeds. Specifically, we achieve a reduction of 8.9-19.8% in test MSE and a gain of 0.98-1.53% in test accuracy, using only 5-10% of the hard-to-generate real experimental data. The codes are available in https://github.com/VITA-Group/Bi-RPT.}
+}
+
+@InProceedings{zhao24b,
+	title = {Deep Leakage from Model in Federated Learning},
+	author = {Zhao, Zihao and Luo, Mengen and Ding, Wenbo},
+	pages = {324-340},
+	openreview = {S8MPHInGqj},
+	abstract = {Federated Learning (FL) was conceived as a secure form of distributed learning by keeping private training data local and only communicating public model gradients between clients. However, a slew of gradient leakage attacks proposed to date undermine this claim by proving its insecurity. A common limitation of these attacks is the necessity for extensive auxiliary information, such as model weights, optimizers, and certain hyperparameters (e.g., learning rate), which are challenging to acquire in practical scenarios. Furthermore, several existing algorithms, including FedAvg, circumvent the transmission of model gradients in FL by instead sending model weights, but the potential security breaches of this approach are seldom considered. In this paper, we propose two innovative frameworks, DLM and DLM+, that reveal the potential leakage of private local data of clients when transmitting model weights under the FL framework. We also conduct a series of experiments to elucidate the impact and universality of our attack frameworks. Additionally, we propose and evaluate two defenses against the proposed attacks, assessing their protective efficacy.}
+}
+
+@InProceedings{lei24,
+	title = {Balance is Essence: Accelerating Sparse Training via Adaptive Gradient Correction},
+	author = {Lei, Bowen and Xu, Dongkuan and Zhang, Ruqi and He, Shuren and Mallick, Bani},
+	pages = {341-378},
+	openreview = {Pby7pqtBYN},
+	abstract = {Despite impressive performance, deep neural networks require significant memory and computation costs, prohibiting their application in resource-constrained scenarios. Sparse training is one of the most common techniques to reduce these costs, however, the sparsity constraints add difficulty to the optimization, resulting in an increase in training time and instability. In this work, we aim to overcome this problem and achieve space-time co-efficiency. To accelerate and stabilize the convergence of sparse training, we analyze the gradient changes and develop an adaptive gradient correction method. Specifically, we approximate the correlation between the current and previous gradients, which is used to balance the two gradients to obtain a corrected gradient. Our method can be used with the most popular sparse training pipelines under both standard and adversarial setups. Theoretically, we prove that our method can accelerate the convergence rate of sparse training. Extensive experiments on multiple datasets, model architectures, and sparsities demonstrate that our method outperforms leading sparse training methods by up to \textbf{5.0\%} in accuracy given the same number of training epochs, and reduces the number of training epochs by up to \textbf{52.1\%} to achieve the same accuracy. Our code is available on: \url{https://github.com/StevenBoys/AGENT}.}
+}
+
+@InProceedings{lejeune24,
+	title = {An Adaptive Tangent Feature Perspective of Neural Networks},
+	author = {LeJeune, Daniel and Alemohammad, Sina},
+	pages = {379-394},
+	openreview = {NFqCYfoLw6},
+	abstract = {In order to better understand feature learning in neural networks, we propose and study linear models in tangent feature space where the features are allowed to be transformed during training. We consider linear feature transformations, resulting in a joint optimization over parameters and transformations with a bilinear interpolation constraint. We show that this relaxed optimization problem has an equivalent linearly constrained optimization with structured regularization that encourages approximately low rank solutions. Specializing to structures arising in neural networks, we gain insights into how the features and thus the kernel function change, providing additional nuance to the phenomenon of kernel alignment when the target function is poorly represented by tangent features. In addition to verifying our theoretical observations in real neural networks on a simple regression problem, we empirically show that an adaptive feature implementation of tangent feature classification has an order of magnitude lower sample complexity than the fixed tangent feature model on MNIST and CIFAR-10.}
+}
+
+@InProceedings{kuoch24,
+	title = {Probing Biological and Artificial Neural Networks with Task-dependent Neural Manifolds},
+	author = {Kuoch, Michael and Chou, Chi-Ning and Parthasarathy, Nikhil and Dapello, Joel and DiCarlo, James J. and Sompolinsky, Haim and Chung, SueYeon},
+	pages = {395-418},
+	openreview = {MxBS6aw5Gd},
+	abstract = {In recent years, growth in our understanding of the computations performed in both biological and artificial neural networks has largely been driven by either low-level mechanistic studies or global normative approaches. However, concrete methodologies for bridging the gap between these levels of abstraction remain elusive. In this work, we investigate the internal mechanisms of neural networks through the lens of neural population geometry, aiming to provide understanding at an intermediate level of abstraction, as a way to bridge that gap. Utilizing manifold capacity theory (MCT) from statistical physics and manifold alignment analysis (MAA) from high-dimensional statistics, we probe the underlying organization of task-dependent manifolds in deep neural networks and neural recordings from the macaque visual cortex. Specifically, we quantitatively characterize how different learning objectives lead to differences in the organizational strategies of these models and demonstrate how these geometric analyses are connected to the decodability of task-relevant information. Furthermore, these metrics show that macaque visual cortex data are more similar to unsupervised DNNs in terms of geometrical properties such as manifold position and manifold alignment. These analyses present a strong direction for bridging mechanistic and normative theories in neural networks through neural population geometry, potentially opening up many future research avenues in both machine learning and neuroscience.}
+}
+
+@InProceedings{xue24,
+	title = {Exploring Minimally Sufficient Representation in Active Learning through Label-Irrelevant Patch Augmentation},
+	author = {Xue, Zhiyu and Dai, Yinlong and Lei, Qi},
+	pages = {419-439},
+	openreview = {MlgnGWdqWl},
+	abstract = {Deep learning models, which require abundant labeled data for training, are expensive and time-consuming to implement, particularly in medical imaging. Active learning (AL) aims to maximize model performance with few labeled samples by gradually expanding and labeling a new training set. In this work, we intend to learn a "good" feature representation that is both sufficient and minimal, facilitating effective AL for medical image classification. This work proposes an efficient AL framework based on off-the-shelf self-supervised learning models, complemented by a label-irrelevant patch augmentation scheme. This scheme is designed to reduce redundancy in the learned features and mitigate overfitting in the progress of AL. Our framework offers efficiency to AL in terms of parameters, samples, and computational costs. The benefits of this approach are extensively validated across various medical image classification tasks employing different AL strategies.~\footnote{Source Codes: \url{https://github.com/chrisyxue/DA4AL}}.}
+}
+
+@InProceedings{tong24,
+	title = {Unsupervised Learning of Structured Representation via Closed-Loop Transcription},
+	author = {Tong, Shengbang and Dai, Xili and Chen, Yubei and Li, Mingyang and LI, ZENGYI and Yi, Brent and LeCun, Yann and Ma, Yi},
+	pages = {440-457},
+	openreview = {MF35ZwzpY5},
+	abstract = {This paper proposes an unsupervised method for learning a unified representation that serves both discriminative and generative purposes. While most existing unsupervised learning approaches focus on a representation for only one of these two goals, we show that a unified representation can enjoy the mutual benefits of having both. Such a representation is attainable by generalizing the recently proposed closed-loop transcription framework, known as CTRL, to the unsupervised setting. This entails solving a constrained maximin game over a rate reduction objective that expands features of all samples while compressing features of augmentations of each sample. Through this process, we see discriminative low-dimensional structures emerge in the resulting representations.  Under comparable experimental conditions and network complexities, we demonstrate that these structured representations enable classification performance close to state-of-the-art unsupervised discriminative representations, and conditionally generated image quality significantly higher than that of state-of-the-art unsupervised generative models.}
+}
+
+@InProceedings{sow24,
+	title = {Algorithm Design for Online Meta-Learning with Task Boundary Detection},
+	author = {Sow, Daouda and Lin, Sen and Liang, Yingbin and Zhang, Junshan},
+	pages = {458-479},
+	openreview = {LzhpSfqSXC},
+	abstract = {Online meta-learning has recently emerged as a marriage between batch meta-learning and online learning, for achieving the capability of quick adaptation on new tasks in a lifelong manner. However, most existing approaches focus on the restrictive setting where the distribution of the online tasks remains fixed with known task boundaries. In this work, we relax these assumptions and propose a novel algorithm for task-agnostic online meta-learning in non-stationary environments. More specifically, we first propose two simple but effective detection mechanisms of task switches and distribution shift based on empirical observations, which serve as a key building block for more elegant online model updates in our algorithm: the task switch detection mechanism allows reusing of the best model available for the current task at hand, and the distribution shift detection mechanism differentiates the meta model update in order to preserve the knowledge for in-distribution tasks and quickly learn the new knowledge for out-of-distribution tasks. In particular, our online meta model updates are based only on the current data, which eliminates the need of storing previous data as required in most existing methods. We further show that a sublinear task-averaged regret can be achieved for our algorithm under mild conditions. Empirical studies on three different benchmarks clearly demonstrate the significant advantage of our algorithm over related baseline approaches.}
+}
+
+@InProceedings{li24b,
+	title = {NeuroMixGDP: A Neural Collapse-Inspired Random Mixup for Private Data Release},
+	author = {Li, Donghao and Cao, Yang and Yao, Yuan},
+	pages = {480-514},
+	openreview = {HyOziZFh5x},
+	abstract = {Privacy-preserving data release algorithms have gained increasing attention for their ability to protect user privacy while enabling downstream machine learning tasks. However, the utility of current popular algorithms is not always satisfactory. Mixup of raw data provides a new way of data augmentation, which can help improve utility. However, its performance drastically deteriorates when differential privacy (DP) noise is added.
+To address this issue, this paper draws inspiration from the recently observed Neural Collapse (NC) phenomenon, which states that the last layer features of a neural network concentrate on the vertices of a simplex as Equiangular Tight Frame (ETF). We propose a scheme to  mixup the Neural Collapse features to exploit the ETF simplex structure and release noisy mixed features to enhance the utility of the released data. By using Gaussian Differential Privacy (GDP), we obtain an asymptotic rate for the optimal mixup degree.
+To further enhance the utility and address the label collapse issue when the mixup degree is large, we propose a Hierarchical sampling method to stratify the mixup samples on a small number of classes. This method remarkably improves utility when the number of classes is large. Extensive experiments demonstrate the effectiveness of our proposed method in protecting against attacks and improving utility. In particular, our approach shows significantly improved utility compared to directly training classification networks with DPSGD on CIFAR100 and MiniImagenet datasets, highlighting the benefits of using privacy-preserving data release. We release reproducible code in https://github.com/Lidonghao1996/NeuroMixGDP.}
+}
+
+@InProceedings{lee24,
+	title = {Jaxpruner: A Concise Library for Sparsity Research},
+	author = {Lee, Joo Hyung and Park, Wonpyo and Mitchell, Nicole Elyse and Pilault, Jonathan and Ceron, Johan Samir Obando and Kim, Han-Byul and Lee, Namhoon and Frantar, Elias and Long, Yun and Yazdanbakhsh, Amir and Han, Woohyun and Agrawal, Shivani and Subramanian, Suvinay and Wang, Xin and Kao, Sheng-Chun and Zhang, Xingyao and Gale, Trevor and Bik, Aart J.C. and Ferev, Milen and Han, Zhonglin and Kim, Hong-Seok and Dauphin, Yann and Dziugaite, Gintare Karolina and Castro, Pablo Samuel and Evci, Utku},
+	pages = {515-528},
+	openreview = {H2rCZCfXkS},
+	abstract = {This paper introduces JaxPruner, an open-source JAX-based pruning and sparse training library for machine learning research. JaxPruner aims to accelerate research on sparse neural networks by providing concise implementations of popular pruning and sparse training algorithms with minimal memory and latency overhead. Algorithms implemented in JaxPruner use a common API and work seamlessly with the popular optimization library Optax, which, in turn, enables easy integration with existing JAX based libraries. We demonstrate this ease of integration by providing examples in four different codebases: Scenic, t5x, Dopamine and FedJAX and provide baseline experiments on popular benchmarks. Jaxpruner is hosted at github.com/google-research/jaxpruner}
+}
+
+@InProceedings{cao24,
+	title = {Image Quality Assessment: Integrating Model-centric and Data-centric Approaches},
+	author = {Cao, Peibei and Li, Dingquan and Ma, Kede},
+	pages = {529-541},
+	openreview = {GLQJH92m1m},
+	abstract = {Learning-based image quality assessment (IQA) has made remarkable progress in the past decade, but nearly all consider the two key components---model and data---in relative isolation. Specifically, model-centric IQA focuses on developing "better" objective quality methods on fixed and extensively reused datasets, with a great danger of overfitting. Data-centric IQA involves conducting psychophysical experiments to construct "better" human-annotated datasets, which unfortunately ignores current IQA models during dataset creation. In this paper, we first design a series of experiments to probe computationally that such isolation of model and data impedes further progress of IQA. We then describe a computational framework that integrates model-centric and data-centric IQA. As a specific example, we design computational modules to quantify the sampling-worthiness of candidate images based on blind IQA (BIQA) model predictions and deep content-aware features. Experimental results show that the proposed sampling-worthiness module successfully spots diverse failures of the examined BIQA models, which are indeed worthy samples to be included in next-generation datasets.}
+}
+
+@InProceedings{kurtic24,
+	title = {How to Prune Your Language Model: Recovering Accuracy on the ``Sparsity May Cry'' Benchmark},
+	author = {Kurtic, Eldar and Hoefler, Torsten and Alistarh, Dan},
+	pages = {542-553},
+	openreview = {FG8b2I2AkF},
+	abstract = {Pruning large language models (LLMs) from the BERT family has emerged as a standard compression benchmark, and several pruning methods have been proposed for this task. 
+The recent ``Sparsity May Cry'' (SMC) benchmark  put into question the validity of all existing methods, exhibiting a more complex setup where many known pruning methods appear to fail. 
+We revisit the question of accurate BERT-pruning during fine-tuning on downstream datasets, and propose a set of general guidelines for successful pruning, even on the challenging SMC benchmark.
+First, we perform a cost-vs-benefits analysis of pruning model components, such as the embeddings and the classification head; second, we provide a simple-yet-general way of scaling training,  sparsification and learning rate schedules relative to the desired target sparsity; finally, we investigate the importance of proper parametrization for Knowledge Distillation in the context of LLMs. Our simple insights lead to state-of-the-art results, both on classic BERT-pruning benchmarks, as well as on the SMC benchmark, showing that even classic gradual magnitude pruning (GMP) can yield competitive results, with the right approach.}
+}
+
+@InProceedings{kariotakis24,
+	title = {Leveraging Sparse Input and Sparse Models: Efficient Distributed Learning in Resource-Constrained Environments},
+	author = {Kariotakis, Emmanouil and Tsagkatakis, Grigorios and Tsakalides, Panagiotis and Kyrillidis, Anastasios},
+	pages = {554-569},
+	openreview = {D9ggc3l0wi},
+	abstract = {Optimizing for reduced computational and bandwidth resources enables model training in less-than-ideal environments and paves the way for practical and accessible AI solutions. This work is about the study and design of a system that exploits sparsity in the input layer and intermediate layers of a neural network. Further, the system gets trained and operates in a distributed manner. Focusing on image classification tasks, our system efficiently utilizes reduced portions of the input image data. By exploiting transfer learning techniques, it employs a pre-trained feature extractor, with the encoded representations being subsequently introduced into selected subnets of the system's final classification module, adopting the Independent Subnetwork Training (IST) algorithm. This way, the input and subsequent feedforward layers are trained via sparse ``actions'', where input and intermediate features are subsampled and propagated in the forward layers. 
+
+We conduct experiments on several benchmark datasets, including CIFAR-$10$, NWPU-RESISC$45$, and the Aerial Image dataset. The results consistently showcase appealing accuracy despite sparsity: it is surprising that, empirically, there are cases where fixed masks could potentially outperform random masks and that the model achieves comparable or even superior accuracy with only a fraction ($50\%$ or less) of the original image, making it particularly relevant in bandwidth-constrained scenarios. This further highlights the robustness of learned features extracted by ViT, offering the potential for parsimonious image data representation with sparse models in distributed learning.}
+}
+
+@InProceedings{dai24,
+	title = {Closed-Loop Transcription via Convolutional Sparse Coding},
+	author = {Dai, Xili and Chen, Ke and Tong, Shengbang and Zhang, Jingyuan and Gao, Xingjian and Li, Mingyang and Pai, Druv and Zhai, Yuexiang and Yuan, Xiaojun and Shum, Heung-Yeung and Ni, Lionel and Ma, Yi},
+	pages = {570-589},
+	openreview = {1AEJSYO6GX},
+	abstract = {Autoencoding has achieved great empirical success as a framework for learning generative models for natural images. Autoencoders often use generic deep networks as the encoder or decoder, which are difficult to interpret, and the learned representations lack clear structure. In this work, we make the explicit assumption that the image distribution is generated from a multi-stage sparse deconvolution. The corresponding inverse map, which we use as an encoder, is a multi-stage convolution sparse coding (CSC), with each stage obtained from unrolling an optimization algorithm for solving the corresponding (convexified) sparse coding program. To avoid computational difficulties in minimizing distributional distance between the real and generated images, we utilize the recent closed-loop transcription (CTRL) framework that optimizes the rate reduction of the learned sparse representations. Conceptually, our method has high-level connections to score-matching methods such as diffusion models. Empirically, our framework demonstrates competitive performance on large-scale datasets, such as ImageNet-1K, compared to existing autoencoding and generative methods under fair conditions. Even with simpler networks and fewer computational resources, our method demonstrates high visual quality in regenerated images. More surprisingly, the learned autoencoder performs well on unseen datasets. Our method enjoys several side benefits, including more structured and interpretable representations, more stable convergence, and scalability to large datasets. Our method is arguably the first to demonstrate that a concatenation of multiple convolution sparse coding/decoding layers leads to an interpretable and effective autoencoder for modeling the distribution of large-scale natural image datasets.}
+}
+
+@InProceedings{upadhyay24,
+	title = {Less is More – Towards parsimonious multi-task models using structured sparsity},
+	author = {Upadhyay, Richa and Phlypo, Ronald and Saini, Rajkumar and Liwicki, Marcus},
+	pages = {590-601},
+	openreview = {0VU6Vlh0zy},
+	abstract = {Model sparsification in deep learning promotes simpler, more interpretable models with fewer parameters. 
+This not only reduces the model's memory footprint and computational needs but also shortens inference time.
+This work focuses on creating sparse models optimized for multiple tasks with fewer parameters. 
+These parsimonious models also possess the potential to match or outperform dense models in terms of performance.
+In this work, we introduce channel-wise $l_1/l_2$ group sparsity in the shared convolutional layers parameters (or weights) of the multi-task learning model.
+This approach facilitates the removal of extraneous groups i.e., channels (due to $l_1$ regularization) and also imposes a penalty on the weights, further enhancing the learning efficiency for all tasks (due to $l_2$ regularization).
+We analyzed the results of group sparsity in both single-task and multi-task settings on two widely-used multi-task learning datasets: NYU-v2 and CelebAMask-HQ.
+On both datasets, which consist of three different computer vision tasks each, multi-task models with approximately 70\% sparsity outperform their dense equivalents.
+We also investigate how changing the degree of sparsification influences the model's performance, the overall sparsity percentage, the patterns of sparsity, and the inference time.}
+}
+
